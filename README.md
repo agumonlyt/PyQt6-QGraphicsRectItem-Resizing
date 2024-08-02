@@ -29,7 +29,8 @@ To check whether a rect is outside its scene, you need to check both `self.pos()
 <br> 
 
 
-[Video Title](example.mp4)
+https://github.com/user-attachments/assets/a921c618-2c52-4280-8a63-731dc702b638
+
 
 <br>
 
