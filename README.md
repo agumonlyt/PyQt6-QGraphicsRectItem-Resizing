@@ -20,9 +20,9 @@ Basically using `self.pos()` `self.rect()` `self.scene().sceneRect()` and manipu
 
 Note that in pyqt the coordinate system is complicated. 
 
-`self.pos()` - return rect pos on the scene. 
-`self.rect()` - return rect object itself, note that `.left()` `.top()` can be negative value. Not sure about `.right()` and `.bottom`. 
-`self.scene().sceneRect()` - not sure, maybe return scene dimension. 
+`self.pos()` - return rect pos on the scene. <br>
+`self.rect()` - return rect object itself, note that `.left()` `.top()` can be negative value. Not sure about `.right()` and `.bottom`. <br>
+`self.scene().sceneRect()` - not sure, maybe return scene dimension. <br>
 
 To check whether a rect is outside its scene, you need to check both `self.pos()` and `self.rect()` value. One tells where the rect object is on the scene, another tells the rect attribute (left top right bottom) even after resizing. 
 
